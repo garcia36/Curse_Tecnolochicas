@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+
+    <style>
+        html,body{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        body{
+            margin: 0;
+            background-color: hwb(208 83% 0%);
+            color: rgb(34, 30, 44);
+            font-family: 'Roboto', sans-serif;
+        }
+        #header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #main-content-container{
+            display: flex;
+        }
+        #links-sidebar{
+            flex: 2;
+            background-color: blue;
+        }
+        #main-content{
+            flex: 6;
+            background-color: pink;
+            padding-right: 10px 20px 10px 20px ;
+        }
+        .main-content__img{
+             width: 100%; 
+        }
+        /* footer tres columanas */
+        #footer{
+            display: flex;
+            padding: 0 20px 20px 20px;
+            margin-top: 0 auto;
+            background-color:white;
+        }
+        .footer__section{
+            flex: 1;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+    </style>
+</head>
+<body>
+    <header id="header">
+        <p>Ada</p>
+        <p>2022</p>
+    </header>
+    <nav id="nav">
+        menu
+    </nav>
+    <div id="main-content-container">
+        <aside id="links-sidebar">Link realacionados</aside>
+        <section id="main-content"> 
+            <img src="https://archive.hotstudio.com/sites/default/files/400.jpeg" alt="ada" class="main-content__img" >
+            <h4>biografia</h4>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae natus quam veritatis, nisi soluta ab voluptatem quidem tenetur nesciunt labore impedit vitae dolores maiores delectus numquam dolorem dicta nam optio?
+            </p>
+            <h4>Datos Curiosos</h4>
+            <p></p>
+    </div>
+    <footer id="footer">
+        <div class="footer__section"><h2>Mis redes</h2>
+            <i class="lni lni-angular">Angular</i>
+        </div>
+        <div class="footer__section"><h2>Contactos</h2>
+        <div>
+            <form action="">
+
+            </form>
+        </div>
+        </div>
+        <div class="footer__section"><h2>Otros de mis sitios</h2></div>
+    </footer>
+</body>
+</html>

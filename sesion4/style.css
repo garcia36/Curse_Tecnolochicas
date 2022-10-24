@@ -1,0 +1,38 @@
+header{
+    background-color: red;
+}
+nav{
+    background-color: green;
+}
+div{
+    background-color: blue;
+}
+aside{
+    background-color: burlywood;
+}
+section{
+    background-color: aqua;
+}
+article{
+    background-color: chartreuse;
+}
+footer{
+    background-color: pink;
+}
+
+
+
+
+/* div{
+    background-color: blueviolet;
+}
+article{
+background-color: aqua;
+ display: flex; 
+}
+
+section{
+    display: flex;
+    flex-direction: row; 
+    flex-direction: column; 
+} */

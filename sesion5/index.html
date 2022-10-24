@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores</title>
+    <style>
+        #conID{
+            background-color: blue;
+            color: white;
+        }
+        .conClase{
+            background-color: aqua;
+        }
+        .conClase.conClase2{
+            background-color: greenyellow;
+        }
+        h5{
+            font-size: 20px;
+        }
+        img[alt]{
+            border-radius: 10px;
+        }
+        img[alt=gatito2]{
+            border-radius: 80px;
+        }
+        /* hover parecido */
+        p:active{
+            background-color: blueviolet;
+        }
+        p::before{
+            content: 'Aqui va contenido antes de texto. ';
+        }
+        p::after{
+            content: 'Aqui va contenido despues de texto. ';
+        }
+    </style>
+</head>
+<body>
+    <h1>Selectores</h1>
+    <p id="conID" >ID</p>
+    <p class="conClase" >Clase</p>
+    <h5>Elemento</h5>
+    <img src="https://archive.hotstudio.com/sites/default/files/400.jpeg" alt="gatito">
+    <img src="https://archive.hotstudio.com/sites/default/files/400.jpeg" alt="gatito2">
+    <p>Activa en amarillo</p>
+    <p class="conClase conClase2" >Clase doble</p>
+</body>
+</html>

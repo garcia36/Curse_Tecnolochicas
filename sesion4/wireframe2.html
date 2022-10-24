@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">   
+    <title>Flexbox</title>
+    <style>
+        body>div{
+            display: flex;
+        }
+        body > div > div{
+            flex: 3;
+            padding-right: 20%;
+        }
+        aside{
+            flex: 1;
+        }
+        header{
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        button{
+            height: 50px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aide A.García</h1>
+        <p>2001-2022</p>
+    </header>
+    <nav>
+        <button>boton1</button>
+        <button>boton2</button>
+        <button>boton3</button>
+        <button>boton4</button>
+    </nav>
+    <div>
+        <aside>link</aside>
+        <div>
+            <section>Contenido</section>
+            <article>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, nobis sint? Voluptas, vitae error repudiandae, corrupti accusantium magnam molestiae quis corporis magni ipsa repellat temporibus facilis soluta numquam voluptatum libero?</article>
+        </div>
+    </div>
+    <footer>Footer</footer>
+</body>
+</html>
